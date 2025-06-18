@@ -21,15 +21,20 @@
     <EditText
         android:id="@+id/etDate"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
+        android:layout_margin="20dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
         android:inputType="number"
         android:hint="Date" />
 
     <EditText
         android:id="@+id/etMinimum"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="number"
         android:hint="Minimum Temperature" />
@@ -37,7 +42,7 @@
     <EditText
         android:id="@+id/etMaximum"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="number"
         android:hint="Maximum Temperature" />
@@ -45,7 +50,7 @@
     <EditText
         android:id="@+id/etConditions"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
         android:hint="Weather Conditions" />
